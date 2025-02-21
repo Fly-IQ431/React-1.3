@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(209, 207, 207);
+  color: black;
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+}
+
+.header {
+  background-color: rgb(104, 162, 45);
+  padding: 25px 100px;
+  font-weight: 600;
+}
+
+main {
+  display: inline-block;
+  background-color: #574964;
+  padding: 20px;
+  margin: 50px 100px;
+  width: 35%;
+  border-radius: 20px;
+}
+
+aside {
+  display: inline-block;
+  padding: 20px;
+  position: fixed;
+}
+
+.main_delo {
+  margin: 30px;
+}
+.delo {
+  background-color: #ffdab3;
+  color: #574964;
+  width: auto;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form {
+  background-color: #574964;
+  padding: 8px;
+  margin: 50px;
+  width: auto;
+  border-radius: 20px;
+}
+
+form input,
+form button {
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+  background-color: #ffdab3;
+  color: #574964;
+  font-size: 15px;
+  width: 87%;
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form button {
+  background-color: #c8aaaa;
+  font-weight: 700;
+  margin: 10px;
+  width: 92%;
+  cursor: pointer;
+  transition: transform 500ms ease;
+}
+
+form button:hover {
+  transform: scale(1.1);
+}
+
+main .delete-icon {
+  background-color: #c8aaaa;
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+  border-radius: 5px;
+  color: #9f8383;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+main .edit-icon {
+  background-color: #c8aaaa;
+  float: right;
+  margin-right: 25px;
+  margin-top: 13px;
+  border-radius: 5px;
+  color: #9f8383;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+main .delete-icon:hover,
+main .edit-icon:hover {
+  opacity: 0.5;
+}
+
+.delo form {
+  margin-right: 20px;
+}
