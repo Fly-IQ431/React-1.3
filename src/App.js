@@ -21,17 +21,19 @@ class App extends React.Component {
     return (
       <div>
         <Header title_site="Список дел" />
-        <main>
-          <List
-            goalList={this.state.goalList}
-            onEdit={this.editDelo}
-            onDelete={this.deleteDelo}
-          />
-        </main>
+        <div className="display">
+          <aside>
+            <AddDelo onAdd={this.addDelo} />
+          </aside>
 
-        <aside>
-          <AddDelo onAdd={this.addDelo} />
-        </aside>
+          <main>
+            <List
+              goalList={this.state.goalList}
+              onEdit={this.editDelo}
+              onDelete={this.deleteDelo}
+            />
+          </main>
+        </div>
       </div>
     );
   }

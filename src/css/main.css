@@ -19,18 +19,9 @@ body {
 }
 
 main {
-  display: inline-block;
   background-color: #574964;
-  padding: 20px;
-  margin: 50px 100px;
-  width: 35%;
   border-radius: 20px;
-}
-
-aside {
-  display: inline-block;
-  padding: 20px;
-  position: fixed;
+  width: 100%;
 }
 
 .main_delo {
@@ -50,7 +41,7 @@ form {
   background-color: #574964;
   padding: 8px;
   margin: 50px;
-  width: auto;
+  width: 300px;
   border-radius: 20px;
 }
 
@@ -110,4 +101,12 @@ main .edit-icon:hover {
 
 .delo form {
   margin-right: 20px;
+}
+
+.display {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 70px;
+  justify-items: center;
 }
